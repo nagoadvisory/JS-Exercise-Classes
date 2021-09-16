@@ -42,7 +42,16 @@ class Airplane {
 */
 
 class Person {
-  
+  constructor (name, age) {
+    super(name,age);
+    this.name = name;
+    this.age = age;
+  }
+  eat(){
+    if (this.stomach.length < 10){
+      this.stomach.push(SomeFood)
+    } else console.log("TOO HEAVY")
+  }
 }
 
 /*
